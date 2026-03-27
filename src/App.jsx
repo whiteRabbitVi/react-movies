@@ -6,7 +6,7 @@ import { Movies } from './components/Movies';
 import { Search } from './layout/Search';
 import { SearchType } from './layout/SearchType';
 
-const API_KEY = process.env.REACT_APP_KEY;
+const API_KEY = 'aed6d25f';
 class App extends React.Component {
     state = {
         searchText: 'force',
