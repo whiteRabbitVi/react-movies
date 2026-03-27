@@ -51,7 +51,7 @@ class App extends React.Component {
             return;
         }
 
-        fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${searchText}&type=${searchType}`)
+        fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${searchText}&type=${searchType}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('fetch error' + response.status)
