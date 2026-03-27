@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.btn-new {
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background: #0b8cf6;
+  box-shadow: 0 5px 0 #003CC5;
+  margin: 5px;
+}
+
+.btn-new:hover {
+  background: #003CC5;
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.count {
+  display: flex;
+  width: 40px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #333131;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
